@@ -16,7 +16,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: README.md
+          source-directory: 'build'
           destination-github-username: 'vecika'
           destination-repository-name: 'test_Automation'
           user-email: kardum.vedran@gmail.com
